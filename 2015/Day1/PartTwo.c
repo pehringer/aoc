@@ -3,7 +3,7 @@
 #define BUFFER_SIZE 8192
 
 int main(void) {
-	FILE *file = fopen("input.txt", "r");
+	FILE *file = fopen("PuzzleInput.txt", "r");
 	if(file == NULL) {
 		perror("error opening input.txt");
 		return 0;
