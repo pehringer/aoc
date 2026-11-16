@@ -5,4 +5,15 @@
 ///\\\
   ||
 ```
-This repository is for the love of the art of computer programming. No AI use here. Just good old human ingenuity and intuition. Manually writing code and reading docs. Keeping my skills sharp.
+
+No AI use here. Just good old human ingenuity and intuition. Manually writing code and reading docs. Keeping my skills sharp.
+
+
+***C: C (duh)***  
+***P: Python***  
+|Year|1 |2 |3 |4 |5 |6 |7 |8 |9 |10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|
+|----|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+|2015|PC|P |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|2016|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|2017|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|2018|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
