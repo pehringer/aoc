@@ -5,14 +5,14 @@
 int main(void) {
 	FILE *file = fopen("PuzzleInput.txt", "r");
 	if(file == NULL) {
-		perror("error opening input.txt");
+		perror("error opening PuzzleInput.txt");
 		return 0;
 	}
 	char input[BUFFER_SIZE];
 	size_t size = fread(input, sizeof input[0], BUFFER_SIZE, file);
 	fclose(file);
 	if(size == BUFFER_SIZE) {
-		printf("error reading input.txt: BUFFER_SIZE too small\n");
+		printf("error reading PuzzleInput.txt: BUFFER_SIZE too small\n");
 		return 0;
 	}
 
