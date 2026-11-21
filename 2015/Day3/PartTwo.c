@@ -18,9 +18,9 @@ int main(void) {
 
 	int keys[BUFFER_SIZE] = {0};
 	char used[BUFFER_SIZE] = {1};
-	bool turn = false;
+	bool turn = 0;
 	int count = 1, santa_x = 0, robot_x = 0, santa_y = 0, robot_y = 0;
-	for(int i; i < size; i++) {
+	for(int i = 0; i < size; i++) {
 		int x = 0, y = 0;
 		switch(input[i]) {
 		case '^':

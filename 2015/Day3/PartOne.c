@@ -18,7 +18,7 @@ int main(void) {
 
 
 	int keys[BUFFER_SIZE] = {0};
-	char used[BUFFER_SIZE] = {true};
+	char used[BUFFER_SIZE] = {1};
 	int count = 1, x = 0, y = 0;
 	for(int i = 0; i < size; i++) {
 		switch(input[i]) {
@@ -42,7 +42,7 @@ int main(void) {
 		}
 		if(!used[hash]) {
 			keys[hash] = key;
-			used[hash] = true;
+			used[hash] = 1;
 			count++;
 		}
 	}

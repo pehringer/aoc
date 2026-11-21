@@ -2,7 +2,7 @@
 
 #define BUFFER_SIZE 8192
 
-int min(int *a, int *b) {
+void min(int *a, int *b) {
 	if(*b < *a) {
 		int t = *a;
 		*a = *b;
@@ -10,7 +10,7 @@ int min(int *a, int *b) {
 	}
 }
 
-int sort(int *a, int *b, int *c) {
+void sort(int *a, int *b, int *c) {
 	min(a, b);
 	min(b, c);
 	min(a, b);
