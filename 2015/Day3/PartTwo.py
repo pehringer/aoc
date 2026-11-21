@@ -2,8 +2,6 @@ input = ""
 with open("PuzzleInput.txt") as file:
 	input = file.read()
 
-input.strip()
-
 turn = False
 robot_x, robot_y = 0, 0
 santa_x, santa_y = 0, 0
